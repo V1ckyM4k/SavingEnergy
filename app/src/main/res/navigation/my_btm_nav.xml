@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_btm_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.prog7313_groupapp.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/budgetFragment"
+        android:name="com.example.prog7313_groupapp.BudgetFragment"
+        android:label="fragment_budget"
+        tools:layout="@layout/fragment_budget" />
+    <fragment
+        android:id="@+id/addEntryFragment"
+        android:name="com.example.prog7313_groupapp.AddEntryFragment"
+        android:label="fragment_add_entry"
+        tools:layout="@layout/fragment_add_entry" />
+    <fragment
+        android:id="@+id/entriesListFragment"
+        android:name="com.example.prog7313_groupapp.EntriesListFragment"
+        android:label="fragment_entries_list"
+        tools:layout="@layout/fragment_entries_list" />
+    <fragment
+        android:id="@+id/spendingFragment"
+        android:name="com.example.prog7313_groupapp.SpendingFragment"
+        android:label="fragment_spending"
+        tools:layout="@layout/fragment_spending" />
+</navigation>
